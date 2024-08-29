@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+#chat {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#messages {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#messages div {
+    margin-bottom: 10px;
+}
+
+#chat-form input {
+    border-radius: 0;
+}
+
+#chat-form button {
+    border-radius: 0;
+}

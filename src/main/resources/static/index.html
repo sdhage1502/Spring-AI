@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div class="container my-4">
+    <h1 class="text-center mb-4">Chat Application</h1>
+    <div class="card">
+        <div class="card-body" id="chat">
+            <div id="messages" class="overflow-auto" style="height: 400px;"></div>
+        </div>
+        <div class="card-footer">
+            <form id="chat-form" class="d-flex">
+                <input type="text" id="prompt" class="form-control me-2" placeholder="Type a message..." required>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Include Bootstrap JS and dependencies -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="/scripts.js"></script>
+</body>
+</html>
